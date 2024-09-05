@@ -60,6 +60,36 @@ img:hover{
         height: 600px;
     }
 }
+@media screen and (min-width: 600px) {
+    main {
+      padding: 2em;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    header {
+      padding: 2em;
+    }
+  }
+  @media screen and (min-width: 320px) {
+    body {
+        padding: 0em;
+    }
+    .container {
+        width: 100%;
+        padding: 0 1em;
+    }
+    .navbar-fixed {
+        padding: 0.5em;
+    }
+    .about {
+        font-size: 0.9em;
+    }
+    .link {
+        font-size: 0.8em;
+    }
+}
+
 .about{
     text-align: justify;
 }
@@ -94,6 +124,6 @@ img:hover{
     width: 100%;
     z-index: 1000;
     background-color: black;
-    margin: 0; /* Ensure no margin is applied */
-    padding: 0; /* Ensure no padding is applied */
+    margin: 0;
+    padding: 0;
 }
